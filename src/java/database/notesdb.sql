@@ -36,11 +36,11 @@ INSERT INTO `role` VALUES
 (2, 'regular user');
 
 INSERT INTO `user` (`email`,`active`,`first_name`,`last_name`,`password`,`role`) VALUES
-('your_gmail_address_here+admin@gmail.com', true, 'Admin','Admin', 'password', 1),
-('your_gmail_address_here+anne@gmail.com', true, 'Anne','Annerson', 'password', 2),
-('your_gmail_address_here+barb@gmail.com', true, 'Barb','Barber', 'password', 2);
+('sait.webtest+admin@gmail.com', true, 'Admin','Admin', 'password', 1),
+('sait.webtest+anne@gmail.com', true, 'Anne','Annerson', 'password', 2),
+('sait.webtest+barb@gmail.com', true, 'Barb','Barber', 'password', 2);
 
 INSERT INTO `note` (`Title`, `Contents`, `Owner`) VALUES
-('Quote #1', 'Writing is nature''s way of letting you know how sloppy your thinking is.', 'your_gmail_address_here+anne@gmail.com'),
-('Another quote', '"Java is to JavaScript as ham is to hamster." -  Jeremy Keith', 'your_gmail_address_here+anne@gmail.com'),
-('Barb''s Note', 'Anne should not see this note.', 'your_gmail_address_here+barb@gmail.com');
+('Quote #1', 'Writing is nature''s way of letting you know how sloppy your thinking is.', 'sait.webtest+anne@gmail.com'),
+('Another quote', '"Java is to JavaScript as ham is to hamster." -  Jeremy Keith', 'sait.webtest+anne@gmail.com'),
+('Barb''s Note', 'Anne should not see this note.', 'sait.webtest+barb@gmail.com');
