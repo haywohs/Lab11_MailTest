@@ -53,9 +53,10 @@ public class AccountService {
                 tags.put("password", user.getPassword());
                 
                 GmailService.sendMail(to, subject, template, tags);
+                return true;
             }
         } catch (Exception e) {
         }
-        return true;
+        return false;
     }
 }

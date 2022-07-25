@@ -8,9 +8,10 @@
     <body>
         <h1>Forgot Password</h1>
         <h3>Please enter your email address to retrieve your password.</h3>
-        <form>
+        <form action="" method="post">
             <label>Email Address:  </label><input type="text" name="email" value="${email}">
             <input type="submit" value="Submit">
         </form>
+            <p>${text}</p>
     </body>
 </html>
